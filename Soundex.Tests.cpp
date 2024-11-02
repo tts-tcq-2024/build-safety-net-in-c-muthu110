@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <string.h>
 #include <stdio.h>
-#include <soundex.h>
+#include "soundex.h"
 // Function prototype for generate_soundex
 void generate_soundex(const char *name, char *soundex);
 
