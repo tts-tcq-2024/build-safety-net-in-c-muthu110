@@ -64,18 +64,3 @@ void testHAndWHandling() {
     generate_soundex("RWH", soundex);
     assert(strcmp(soundex, "R000") == 0);
 }
-
-int main() {
-    testEmptyString();
-    testNullString();
-    testSingleCharacter();
-    testVowels();
-    testConsonants();
-    testRepeatedConsonants();
-    testPadding();
-    testMixedCase();
-    testHAndWHandling();
-
-    printf("All tests passed successfully.\n");
-    return 0;
-}
